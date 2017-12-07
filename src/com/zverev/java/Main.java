@@ -13,10 +13,14 @@ public class Main {
         Candy nougat = new Candy("nougat", 19.3F);
 
         System.out.println("You collect Gift. It's weight " + gift.collectGift(chocolate.getWeight(),
-                                                                lollipop.getWeight(),
-                                                                    toffee.getWeight(),
-                                                                        caramel.getWeight(),
-                                                                            nougat.getWeight()) + " gram.");
+                                                                                lollipop.getWeight(),
+                                                                                toffee.getWeight(),
+                                                                                caramel.getWeight(),
+                                                                                nougat.getWeight()) + " gram.");
+
+        System.out.println("You collect Gift. It's weight " + gift.collectGift(caramel.getWeight(),
+                                                                                nougat.getWeight()) + " gram.");
 
     }
+
 }
