@@ -5,7 +5,6 @@ public class Main {
     public static void main(String[] args) {
 
         Gift gift = new Gift();
-        Gift sortGift = new Gift();
 
         Candy chocolate = new Candy("chocolate", 5.5F);
         Candy lollipop = new Candy("lollipop", 10.3F);
@@ -14,17 +13,20 @@ public class Main {
         Candy nougat = new Candy("nougat", 19.3F);
 
         System.out.println("You collect Gift. It's weight " +
-                        gift.collectGift(chocolate.getWeight(),
+                gift.collectGift(chocolate.getWeight(),
                         lollipop.getWeight(),
                         toffee.getWeight(),
                         caramel.getWeight(),
                         nougat.getWeight()) + " gram.");
 
-        sortGift.sortGift(chocolate.getWeight(),
+        gift.sortGift(chocolate.getWeight(),
                 lollipop.getWeight(),
                 toffee.getWeight(),
                 caramel.getWeight(),
                 nougat.getWeight());
+
+        gift.findElement(chocolate.getName(), lollipop.getName(), toffee.getName(), caramel.getName(), nougat.getName());
+
     }
 
 }

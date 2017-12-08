@@ -1,8 +1,13 @@
 package com.zverev.java;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Gift {
+
+    String item;
+
+    Scanner input = new Scanner(System.in);
 
     public float collectGift(float... value) {
 
@@ -20,6 +25,17 @@ public class Gift {
 
         for (int i = 0; i < value.length; i++) {
             System.out.println(value[i]);
+        }
+    }
+
+    public void findElement(String... value) {
+        System.out.println("What kind of candies do you look for: ");
+        item = input.nextLine();
+
+        if (Arrays.asList(value).contains(item)) {
+            System.out.println(item + " is in array");
+        } else {
+            System.out.println(item + " not found");
         }
     }
 
