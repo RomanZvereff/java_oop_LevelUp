@@ -1,11 +1,11 @@
 package com.zverev.java;
 
-public class Candy {
+public class Sweets {
 
     private String name;
     private float weight;
 
-    public Candy(String name, float weight){
+    public Sweets(String name, float weight){
         this.name = name;
         this.weight = weight;
     }

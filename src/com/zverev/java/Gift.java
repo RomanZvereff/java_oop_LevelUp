@@ -29,11 +29,11 @@ public class Gift {
     }
 
     public void findElement(String... value) {
-        System.out.println("What kind of candies do you look for: ");
+        System.out.println("What kind of sweets do you look for: ");
         item = input.nextLine();
 
         if (Arrays.asList(value).contains(item)) {
-            System.out.println(item + " is in array");
+            System.out.println(item + " is in Gift");
         } else {
             System.out.println(item + " not found");
         }

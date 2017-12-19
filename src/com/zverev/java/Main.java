@@ -6,11 +6,11 @@ public class Main {
 
         Gift gift = new Gift();
 
-        Candy chocolate = new Candy("chocolate", 5.5F);
-        Candy lollipop = new Candy("lollipop", 10.3F);
-        Candy toffee = new Candy("toffee", 9.9F);
-        Candy caramel = new Candy("caramel", 7.7F);
-        Candy nougat = new Candy("nougat", 19.3F);
+        Chocolate chocolate = new Chocolate("chocolate", 5.5F);
+        Lollipop lollipop = new Lollipop("lollipop", 10.3F);
+        Toffee toffee = new Toffee("toffee", 9.9F);
+        Caramel caramel = new Caramel("caramel", 7.7F);
+        Nougat nougat = new Nougat("nougat", 19.3F);
 
         System.out.println("You collect Gift. It's weight " +
                 gift.collectGift(chocolate.getWeight(),
