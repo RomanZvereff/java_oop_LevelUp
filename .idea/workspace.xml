@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac96cefd-426e-4486-a7d2-66f2d6c5f357" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zverev/java/Caramel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zverev/java/Chocolate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zverev/java/Lollipop.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zverev/java/Nougat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zverev/java/Toffee.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zverev/java/Gift.java" afterPath="$PROJECT_DIR$/src/com/zverev/java/Gift.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zverev/java/Main.java" afterPath="$PROJECT_DIR$/src/com/zverev/java/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/zverev/java/Candy.java" afterPath="$PROJECT_DIR$/src/com/zverev/java/Sweets.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -296,7 +288,7 @@
       <workItem from="1512689151664" duration="92000" />
       <workItem from="1512760255311" duration="10166000" />
       <workItem from="1512933660812" duration="99000" />
-      <workItem from="1513716438350" duration="1657000" />
+      <workItem from="1513716438350" duration="1707000" />
     </task>
     <task id="LOCAL-00001" summary="create classes and initialize fields">
       <created>1512516037080</created>
@@ -354,11 +346,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512688882529</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="create classes and initialize fields">
+      <created>1513718190918</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1513718190918</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29581000" />
+    <option name="totallyTimeSpent" value="29631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
